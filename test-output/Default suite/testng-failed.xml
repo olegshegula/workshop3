@@ -5,9 +5,8 @@
     <classes>
       <class name="com.workshop.tests.FacebookTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="loginWithSavedCookies"/>
           <include name="setUp"/>
-          <include name="loginAndSaveCookiesTest"/>
         </methods>
       </class> <!-- com.workshop.tests.FacebookTest -->
     </classes>

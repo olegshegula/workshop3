@@ -19,7 +19,7 @@ public void setUp(){
 	Browser browser = new Browser();	
 	browser.setName(PropertyLoader.loadProperty("selenium.browser"));
 	driver = WebDriverFactory.getInstance(browser);
-	driver.get(PropertyLoader.loadProperty("selenium.baseUrl"));
+	driver.get(PropertyLoader.loadProperty("selenium.baseUrl"));	
    	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	driver.manage().window().maximize();
 	initPages(driver);

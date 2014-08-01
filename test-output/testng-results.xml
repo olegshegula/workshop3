@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15131" started-at="2014-08-01T09:10:10Z" finished-at="2014-08-01T09:10:25Z">
+  <suite name="Default suite" duration-ms="16501" started-at="2014-08-01T13:41:46Z" finished-at="2014-08-01T13:42:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15131" started-at="2014-08-01T09:10:10Z" finished-at="2014-08-01T09:10:25Z">
+    <test name="Default test" duration-ms="16501" started-at="2014-08-01T13:41:46Z" finished-at="2014-08-01T13:42:03Z">
       <class name="com.workshop.tests.FacebookTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.workshop.tests.FacebookTest@1b40d5f0]" name="setUp" is-config="true" duration-ms="9153" started-at="2014-08-01T12:10:10Z" finished-at="2014-08-01T12:10:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.workshop.tests.FacebookTest@1b40d5f0]" name="setUp" is-config="true" duration-ms="8596" started-at="2014-08-01T16:41:46Z" finished-at="2014-08-01T16:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginAndSaveCookiesTest()[pri:0, instance:com.workshop.tests.FacebookTest@1b40d5f0]" name="loginAndSaveCookiesTest" duration-ms="5965" started-at="2014-08-01T12:10:19Z" finished-at="2014-08-01T12:10:25Z">
+        <test-method status="PASS" signature="loginAndSaveCookiesTest()[pri:0, instance:com.workshop.tests.FacebookTest@1b40d5f0]" name="loginAndSaveCookiesTest" duration-ms="7893" started-at="2014-08-01T16:41:55Z" finished-at="2014-08-01T16:42:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSaveCookiesTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.workshop.tests.FacebookTest@1b40d5f0]" name="tearDown" is-config="true" duration-ms="285" started-at="2014-08-01T12:10:25Z" finished-at="2014-08-01T12:10:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.workshop.tests.FacebookTest@1b40d5f0]" name="tearDown" is-config="true" duration-ms="404" started-at="2014-08-01T16:42:03Z" finished-at="2014-08-01T16:42:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

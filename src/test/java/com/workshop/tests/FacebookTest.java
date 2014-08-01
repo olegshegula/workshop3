@@ -12,7 +12,6 @@ public class FacebookTest extends BaseTest {
 	public void loginAndSaveCookiesTest() {
 		loginPage.login();
 		Assert.assertEquals(homePage.getPageTitle(), "Facebook");
-
 		homePage.getAllCookies();
 		homePage.deleteAllCookies();
 		homePage.checkThatCookiesDeleted();
