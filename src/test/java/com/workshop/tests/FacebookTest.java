@@ -33,7 +33,7 @@ public class FacebookTest extends BaseTest {
 		loginPage.setAllCookies();
 
 		homePage.reloadPage();
-		// Assert.assertEquals(loginPage.getPageTitle(),"Facebook");
+		
 
 	}
 
